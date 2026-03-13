@@ -18,7 +18,7 @@ const NosotrosPhilosophy: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="order-2 md:order-1 relative h-[300px] md:h-[450px] w-full rounded-xl overflow-hidden shadow-2xl">
                         <Image
-                            src="/images/ced_campus_life.jpg"
+                            src="/images/gretel_valdez.jpg"
                             alt="Filosofía Educativa"
                             fill
                             className="object-cover"
