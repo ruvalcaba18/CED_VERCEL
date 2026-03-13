@@ -12,6 +12,8 @@ export const ATLETAS_DATA = {
         { name: "Hugo Perez", sport: "Deporte de Élite", image: "/images/hugo_perez.jpg" },
         { name: "Nayma Monroy", sport: "Gimnasia Artística", image: "/images/nayma_monroy.jpeg" },
         { name: "Kimberly Becerrra", sport: "Gimnasia Artística", image: "/images/kimberly_becerra.jpeg" },
+        { name: "Renata Ramirez", sport: "Gimnasia Artística", image: "/images/renata_ramirez_nuñes.jpeg" },
+        { name: "Mateo Ruiz", sport: "Ajedrez", image: "/images/mateo_ruiz_gastelum.jpeg" },
         { name: "Campeonas CED", sport: "Demás Atletas", image: "/images/campeonas_ced.jpg" }
     ]
 };
