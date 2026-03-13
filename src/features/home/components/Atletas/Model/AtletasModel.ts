@@ -10,6 +10,8 @@ export const ATLETAS_DATA = {
         { name: "Ian Lozano", sport: "Gimnasia Varonil", image: "/images/ian_lozano.jpg" },
         { name: "Gretel Valdez", sport: "Baile", image: "/images/gretel_valdez.jpg" },
         { name: "Hugo Perez", sport: "Deporte de Élite", image: "/images/hugo_perez.jpg" },
+        { name: "Nayma Monroy", sport: "Gimnasia Artística", image: "/images/nayma_monroy.jpeg" },
+        { name: "Kimberly Becerrra", sport: "Gimnasia Artística", image: "/images/kimberly_becerra.jpeg" },
         { name: "Campeonas CED", sport: "Demás Atletas", image: "/images/campeonas_ced.jpg" }
     ]
 };

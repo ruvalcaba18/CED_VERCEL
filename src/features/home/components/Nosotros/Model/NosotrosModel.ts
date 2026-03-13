@@ -16,19 +16,19 @@ export const NOSOTROS_DATA = {
         { 
             title: 'Quiénes Somos', 
             icon: 'Users',
-            color: 'from-blue-600 to-blue-700', 
+            color: 'from-green-600 to-green-700', 
             desc: 'Entendemos que el mundo ha cambiado. La educación tradicional ya no es la única vía para alcanzar el éxito.' 
         },
         { 
             title: 'Nuestra Historia', 
             icon: 'Trophy',
-            color: 'from-ced-accent to-sky-400', 
+            color: 'from-ced-accent to-emerald-400', 
             desc: 'Más de 10 años de trayectoria por Mónica Tabares. Un modelo donde la dualidad Deporte-Estudio es el motor.' 
         },
         { 
             title: 'Libertad para Crecer', 
             icon: 'Rocket',
-            color: 'from-slate-800 to-black', 
+            color: 'from-slate-700 to-slate-900', 
             desc: 'Tu ritmo, tus metas, tu mundo. Todo lo que necesitas para que tu talento brille sin restricciones de horario.' 
         }
     ],

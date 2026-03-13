@@ -4,11 +4,11 @@ export interface FooterLinksComponentContract {
 }
 export interface FooterBottomComponentContract {
     copyright: string;
-    socials: string[];
+    socials: { label: string, href: string }[];
 }
 export const FOOTER_DATA = {
     brand: "COLEGIO CED",
-    tagline: '"Transformamos la experiencia educativa para mentes que no se detienen."',
+    tagline: "Colegio elite para deportistas",
     sections: [
         {
             title: "Explora",
@@ -19,6 +19,10 @@ export const FOOTER_DATA = {
             links: ['RVOE Oficial', 'Términos de Uso', 'Privacidad', 'Cookies']
         }
     ],
-    socials: ['Instagram', 'Facebook', 'YouTube'],
+    socials: [
+        { label: 'Facebook', href: 'https://www.facebook.com/share/1BmkuVDgiz/?mibextid=wwXIfr' },
+        { label: 'Instagram', href: 'https://www.instagram.com/colegio.ced?igsh=aWZ5cWcxbHBvZmFi&utm_source=qr' },
+        { label: 'YouTube', href: '#' }
+    ],
     copyright: `© ${new Date().getFullYear()} Colegio CED. Todos los derechos reservados.`
 };

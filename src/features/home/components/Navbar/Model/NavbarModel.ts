@@ -11,7 +11,7 @@ export interface NavbarMobileMenuComponentContract {
 }
 export const NAVBAR_DATA = {
     name: "COLEGIO CED",
-    tagline: "Elite Academy",
+    tagline: "Colegio elite para deportistas",
     navigation: [
         { id: 'inicio', label: 'Inicio' },
         { id: 'nosotros', label: 'Nosotros' },

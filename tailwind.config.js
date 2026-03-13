@@ -24,10 +24,10 @@ module.exports = {
           900: '#0c3f6e',
           950: '#082849',
         },
-        'ced-blue': '#1e3a8a',
-        'ced-accent': '#0ea5e9',
-        'ced-gray': '#0f172a',
-        'ced-light': '#3b82f6',
+        'ced-blue': '#15803d', // Verde Bosque
+        'ced-accent': '#22c55e', // Verde Brillante
+        'ced-gray': '#000000', // Negro
+        'ced-light': '#9ca3af', // Gris
       }
     },
   },

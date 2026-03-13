@@ -1,5 +1,5 @@
 export const PILARES_STYLES = {
-    section: "py-24 bg-[#1e293b] relative overflow-hidden",
+    section: "py-24 bg-black relative overflow-hidden",
     container: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
     grid: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8",
     content_wrap: "hidden",

@@ -9,7 +9,15 @@ const FooterBottom: React.FC<FooterBottomComponentContract> = ({ copyright, soci
             <p>{copyright}</p>
             <div className="flex gap-10">
                 {socials.map(social => (
-                    <span key={social}>{social}</span>
+                    <a 
+                        key={social.label} 
+                        href={social.href} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:text-ced-accent transition-colors"
+                    >
+                        {social.label}
+                    </a>
                 ))}
             </div>
         </div>

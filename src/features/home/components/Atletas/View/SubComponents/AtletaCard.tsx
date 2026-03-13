@@ -7,7 +7,7 @@ const AtletaCard: React.FC<AtletaComponentContract> = ({ name, sport, image }) =
     const styles = ATLETAS_STYLES;
     return (
         <div className={styles.card}>
-            <div className="relative w-full h-80">
+            <div className="relative w-full h-[500px] overflow-hidden">
                 <Image
                     src={image}
                     alt={name}
