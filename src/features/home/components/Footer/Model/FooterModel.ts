@@ -21,8 +21,7 @@ export const FOOTER_DATA = {
     ],
     socials: [
         { label: 'Facebook', href: 'https://www.facebook.com/share/1BmkuVDgiz/?mibextid=wwXIfr' },
-        { label: 'Instagram', href: 'https://www.instagram.com/colegio.ced?igsh=aWZ5cWcxbHBvZmFi&utm_source=qr' },
-        { label: 'YouTube', href: '#' }
+        { label: 'Instagram', href: 'https://www.instagram.com/colegio.ced?igsh=aWZ5cWcxbHBvZmFi&utm_source=qr' }
     ],
     copyright: `© ${new Date().getFullYear()} Colegio CED. Todos los derechos reservados.`
 };

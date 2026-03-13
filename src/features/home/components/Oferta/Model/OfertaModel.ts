@@ -16,9 +16,9 @@ export const OFERTA_DATA = {
     label: "Niveles",
     title: "Oferta Académica",
     items: [
-        { id: '01', title: 'Secundaria', desc: 'Formación crítica y creativa para adolescentes en movimiento.' },
-        { id: '02', title: 'Bachillerato', desc: 'Preparación de alto nivel con flexibilidad total para tu carrera.' },
-        { id: '03', title: 'Licenciaturas', desc: 'Carreras profesionales adaptadas a la era digital y global.' }
+        { id: '01', title: 'Primaria', desc: 'Cimientos sólidos con flexibilidad total para iniciar su carrera desde temprano.' },
+        { id: '02', title: 'Secundaria', desc: 'Desarrollo de autonomía y pensamiento crítico especializado para deportistas.' },
+        { id: '03', title: 'Preparatoria', desc: 'Certificado oficial SEP y Transcripción Americana para universidades internacionales.' }
     ],
     faq: [
         { question: '¿Los títulos tienen validez oficial?', answer: 'Sí, todos nuestros programas cuentan con RVOE oficial ante la SEP.' },
