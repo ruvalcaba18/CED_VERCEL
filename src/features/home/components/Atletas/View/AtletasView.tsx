@@ -12,12 +12,25 @@ const AtletasView: React.FC = () => {
 
     const scroll = (direction: 'left' | 'right') => {
         if (scrollRef.current) {
-            const { scrollLeft, clientWidth } = scrollRef.current;
+            const { scrollLeft, clientWidth, scrollWidth } = scrollRef.current;
             const scrollAmount = clientWidth * 0.8;
-            scrollRef.current.scrollTo({
-                left: direction === 'left' ? scrollLeft - scrollAmount : scrollLeft + scrollAmount,
-                behavior: 'smooth'
-            });
+            
+            if (direction === 'left' && scrollLeft <= 0) {
+                scrollRef.current.scrollTo({
+                    left: scrollWidth - clientWidth,
+                    behavior: 'smooth'
+                });
+            } else if (direction === 'right' && scrollLeft + clientWidth >= scrollWidth - 10) {
+                scrollRef.current.scrollTo({
+                    left: 0,
+                    behavior: 'smooth'
+                });
+            } else {
+                scrollRef.current.scrollTo({
+                    left: direction === 'left' ? scrollLeft - scrollAmount : scrollLeft + scrollAmount,
+                    behavior: 'smooth'
+                });
+            }
         }
     };
 

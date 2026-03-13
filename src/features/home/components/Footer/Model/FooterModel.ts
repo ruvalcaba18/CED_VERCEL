@@ -11,10 +11,6 @@ export const FOOTER_DATA = {
     tagline: "Colegio elite para deportistas",
     sections: [
         {
-            title: "Explora",
-            links: ['Nosotros', 'Modelo Educativo', 'Atletas', 'Oferta Académica']
-        },
-        {
             title: "Legales",
             links: ['RVOE Oficial', 'Términos de Uso', 'Privacidad', 'Cookies']
         }
