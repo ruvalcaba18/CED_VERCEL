@@ -1,0 +1,22 @@
+export const NAVBAR_STYLES = {
+    nav: (scrolled: boolean) => `fixed w-full z-50 top-0 transition-all duration-500 ${scrolled ? 'bg-[#0f172a] shadow-xl py-0' : 'bg-transparent py-4'}`,
+    container: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    inner: "flex justify-between h-20 items-center",
+    logo_wrap: "flex items-center gap-3 transition-transform hover:scale-105",
+    logo_icon: "w-12 h-12 bg-ced-blue rounded-xl flex items-center justify-center font-bold text-white text-2xl shadow-lg ring-4 ring-ced-blue/10",
+    logo_text_wrap: "flex flex-col leading-tight",
+    logo_name: "font-black tracking-tight text-white text-xl uppercase",
+    logo_sub: "text-[10px] text-ced-accent font-bold tracking-widest uppercase",
+    desktop_nav: "hidden md:flex space-x-10 items-center",
+    link: "text-white font-bold text-sm hover:text-ced-accent transition-colors uppercase tracking-widest",
+    link_accent: "hidden",
+    cta: "flex items-center justify-center gap-2 bg-ced-blue text-white px-8 py-2.5 rounded-full font-bold text-xs uppercase tracking-widest hover:bg-ced-light transition-all transform hover:scale-105 shadow-xl shadow-ced-blue/20",
+    mobile_btn: "md:hidden text-white p-2",
+    mobile_menu: (isOpen: boolean) => `md:hidden fixed top-0 left-0 w-full h-screen bg-[#0f172a] z-[60] transition-all duration-500 ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`,
+    mobile_inner: "flex flex-col items-center justify-center h-full space-y-8",
+    mobile_link: "text-3xl font-black text-white hover:text-ced-accent uppercase tracking-tighter",
+    mobile_cta: "bg-ced-accent text-white px-10 py-5 rounded-full font-black uppercase tracking-widest text-sm shadow-2xl",
+    ribbon_wrap: "hidden md:block fixed top-0 right-0 z-[100] cursor-pointer group",
+    ribbon_triangle: "w-32 h-32 bg-ced-accent absolute top-0 right-0 origin-top-right rotate-45 translate-x-1/2 -translate-y-1/2 shadow-lg group-hover:bg-ced-light transition-colors duration-300",
+    ribbon_text: "absolute top-4 right-4 rotate-45 text-white font-black text-[10px] uppercase tracking-widest pointer-events-none"
+};

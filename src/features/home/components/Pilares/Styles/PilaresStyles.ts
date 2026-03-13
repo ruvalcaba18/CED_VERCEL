@@ -1,0 +1,22 @@
+export const PILARES_STYLES = {
+    section: "py-24 bg-[#1e293b] relative overflow-hidden",
+    container: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    grid: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8",
+    content_wrap: "hidden",
+    header: "text-center mb-16",
+    label: "text-ced-accent font-bold tracking-widest uppercase text-xs",
+    title: "text-3xl md:text-5xl font-bold text-white mt-4",
+    list_wrap: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full",
+    item: "bg-[#0a0a0a] p-10 rounded-xl shadow-2xl flex flex-col items-center text-center h-full hover:-translate-y-2 transition-transform duration-300",
+    item_num: "w-14 h-14 rounded-full bg-ced-accent flex items-center justify-center text-2xl font-black text-white mb-6 shadow-lg shadow-ced-accent/20",
+    item_content: "space-y-4",
+    item_title: "text-xl font-bold text-white",
+    item_desc: "text-gray-400 text-sm leading-relaxed",
+    image_wrap: "mt-16 w-full max-w-5xl mx-auto",
+    image_glow: "hidden",
+    image_container: "rounded-2xl overflow-hidden shadow-2xl border-4 border-white/5",
+    image: "w-full h-64 md:h-[400px] object-cover",
+    image_overlay: "absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent",
+    image_badge: "absolute bottom-8 left-8 right-8 p-6 bg-black/60 backdrop-blur-sm rounded-xl border border-white/10",
+    image_quote: "text-white font-bold text-xl md:text-2xl text-center italic"
+};

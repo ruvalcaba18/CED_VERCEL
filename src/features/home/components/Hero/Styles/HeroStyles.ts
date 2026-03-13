@@ -1,0 +1,22 @@
+export const HERO_STYLES = {
+    section: "relative pt-32 pb-20 md:pt-48 md:pb-32 flex items-center min-h-screen bg-[#0f172a] overflow-hidden",
+    bg_overlay: "absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none bg-[url('/images/ced-hero.png')] bg-right-top bg-no-repeat bg-contain",
+    bg_circle1: "absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-20 animate-blob",
+    bg_circle2: "absolute top-1/3 right-1/4 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-20 animate-blob animation-delay-2000",
+    container: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full",
+    grid: "grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center",
+    content_wrap: "space-y-8 animate-fade-in",
+    badge: "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ced-accent/10 border border-ced-accent/20 text-ced-accent text-[10px] font-bold uppercase tracking-widest",
+    badge_dot: "flex h-1.5 w-1.5 rounded-full bg-ced-accent animate-ping",
+    title: "text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.9] tracking-tighter uppercase",
+    title_accent: "text-ced-accent",
+    desc: "text-lg md:text-xl text-gray-400 max-w-lg leading-relaxed font-medium",
+    btn_row: "flex flex-col sm:flex-row gap-4 pt-4",
+    btn_primary: "px-10 py-5 bg-ced-blue text-white font-black rounded-full shadow-2xl hover:bg-ced-light transition-all transform hover:scale-105 text-center uppercase tracking-widest text-xs flex items-center justify-center gap-2 group shadow-ced-blue/40",
+    btn_secondary: "px-10 py-5 bg-transparent text-white border-2 border-white/20 font-black rounded-full hover:bg-white/10 transition-all transform hover:scale-105 text-center uppercase tracking-widest text-xs",
+    img_container: "relative w-full flex items-center justify-center lg:justify-end",
+    img_wrap: "relative z-10 rounded-2xl shadow-[0_0_40px_rgba(14,165,233,0.3)] overflow-hidden group border border-white/10 w-fit bg-[#020617]/40",
+    img: "max-w-[280px] md:max-w-[340px] h-auto block transform transition duration-700 group-hover:scale-105 relative z-10",
+    img_fade: "hidden",
+    glow: "absolute -inset-10 bg-ced-accent/20 blur-[100px] rounded-full opacity-50 animate-pulse"
+};

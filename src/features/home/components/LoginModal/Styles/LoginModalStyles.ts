@@ -1,0 +1,20 @@
+export const LOGIN_MODAL_STYLES = {
+    overlay: "fixed inset-0 z-[100] flex items-center justify-center p-4",
+    backdrop: "absolute inset-0 bg-[#020617]/80 backdrop-blur-xl",
+    modal: "relative bg-[#0f172a] w-full max-w-md rounded-[32px] overflow-hidden shadow-[0_0_100px_rgba(14,165,233,0.15)] border border-white/10 animate-fade-in",
+    close_btn: "absolute top-8 right-8 w-12 h-12 bg-white/5 rounded-full flex items-center justify-center text-white/40 hover:bg-ced-blue hover:text-white transition-all z-10 border border-white/5",
+    content: "p-12 space-y-10",
+    header: "text-center space-y-3",
+    icon_wrap: "inline-flex items-center justify-center w-24 h-24 bg-ced-blue/10 rounded-3xl text-ced-accent mb-6 shadow-inner ring-1 ring-white/10",
+    title: "text-4xl font-black text-white tracking-tighter uppercase",
+    welcome: "text-ced-accent font-bold uppercase text-[10px] tracking-[0.2em]",
+    form: "space-y-6",
+    field_group: "space-y-3 relative",
+    label: "text-[10px] font-bold uppercase tracking-widest text-ced-accent/60 ml-2",
+    input: "w-full pl-14 pr-6 py-5 bg-white/5 border border-white/10 rounded-2xl focus:ring-4 focus:ring-ced-blue/20 focus:border-ced-accent outline-none transition-all font-semibold text-white placeholder:text-white/20",
+    input_icon: "absolute left-5 top-[48px] text-ced-accent/50",
+    forgot_link: "text-[10px] font-black uppercase tracking-widest text-ced-accent hover:text-white block text-right mt-3 transition-colors",
+    submit_btn: "w-full py-5 bg-ced-blue text-white rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-ced-light transition-all shadow-2xl mt-8 shadow-ced-blue/40 transform active:scale-95",
+    footer: "pt-8 border-t border-white/5 text-center",
+    footer_text: "text-[9px] font-bold uppercase tracking-[0.3em] text-white/20"
+};
