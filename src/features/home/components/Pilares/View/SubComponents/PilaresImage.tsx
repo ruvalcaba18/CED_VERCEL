@@ -19,7 +19,7 @@ const PilaresImage: React.FC = () => {
             </div>
             <div className="mt-12 max-w-2xl text-center">
                 <p className="text-white font-black text-3xl md:text-5xl italic tracking-tighter leading-tight drop-shadow-2xl">
-                    "{data.quote}"
+                    &quot;{data.quote}&quot;
                 </p>
                 <div className="w-24 h-1.5 bg-ced-accent mx-auto mt-6 rounded-full"></div>
             </div>

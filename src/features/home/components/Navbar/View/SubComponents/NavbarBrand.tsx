@@ -19,6 +19,7 @@ const NavbarBrand: React.FC = () => {
             <div className={styles.logo_text_wrap}>
                 <span className="font-black tracking-tighter text-white text-2xl uppercase leading-none">{data.name}</span>
                 <span className="text-[11px] text-ced-accent font-bold tracking-tight uppercase mt-1 leading-tight">{data.tagline}</span>
+                <span className="text-[10px] text-ced-accent font-semibold tracking-widest uppercase mt-0.5 leading-tight text-center">Educación en línea</span>
             </div>
         </div>
     );
